@@ -2,6 +2,8 @@
 
 A lightweight, external HUD overlay and telemetry utility designed for Star Citizen miners. **SCMB** uses real-time, non-intrusive Optical Character Recognition (OCR) to track mining deposit signatures and active server performance metrics—completely independent of the game client.
 
+<img width="991" height="627" alt="Screenshot 2026-07-08 112827" src="https://github.com/user-attachments/assets/17994a5e-c91d-485e-9713-97a40d6f65ec" />
+
 ---
 
 ## 🚀 Features
