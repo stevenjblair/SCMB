@@ -11,6 +11,9 @@ A lightweight, external HUD overlay and telemetry utility designed for Star Citi
 * **Instant Signature Identification:** Eliminates manual lookup tables. SCMB instantly reads scanning signantures and cross-references them against a static database to output deposit contents (e.g., `Iron x 3`).
 * **Dynamic Click-Through HUD:** The main display overlay is transparent and mouse-blind. It sits cleanly over your HUD without stealing mouse inputs or blocking ship flight controls.
 * **Left-ALT Calibration Engine:** Hold down **Left ALT** to temporarily unlock window interactivity. Drag, scale, or reposition elements seamlessly in real time.
+
+https://github.com/user-attachments/assets/7c80ee24-76c3-49d8-b426-cea4a047bb00
+
 * **Cropping-Style UI Adjustment:** Clicking "Unlock UI" reveals semi-transparent layout boxes featuring 8-way interactive bounding handles to adjust your scanning bounds flawlessly.
 * **Live Server FPS Telemetry:** Monitors server health using a dynamic traffic-light indicator embedded directly into the control panel headbar.
   * 🟩 **>= 20 FPS:** Stable Server Environment
