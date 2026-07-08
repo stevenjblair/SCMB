@@ -63,3 +63,8 @@ cd  pathtoinstall\SC_miningBuddy
 python .\mining_dashboard.py
 ```
 For now I exit the program by CTRL+C or closing the terminal
+
+
+[![Ko-fi](https://shields.io)](https://ko-fi.com)
+[![Patreon](https://shields.io)](https://patreon.com)
+[![Twitch](https://shields.io)](https://twitch.tv)
