@@ -90,3 +90,4 @@ I am constantly looking to improve SCMB's utility without compromising account s
 [![Ko-fi](https://shields.io/badge/ko--fi-donate-ff5f5f?logo=ko-fi&style=for-the-badgeKo-fi)](https://ko-fi.com/randm978)
 <!-- [![Patreon](https://shields.io)](https://patreon.com)
 [![Twitch](https://shields.io)](https://twitch.tv) -->
+[![Hits](https://seco.im)](https://seco.im)
