@@ -1,6 +1,6 @@
 # Star Citizen Mining Buddy (SCMB)
 
-A lightweight, external HUD overlay and telemetry utility designed for Star Citizen miners. **SCMB** uses real-time, non-intrusive Optical Character Recognition (OCR) to track mining deposit signatures and active server performance metrics—completely independent of the game client.  **SCMB** is compliant with CIG TOS as it does not send any key clicks to the client, does not hook into the game
+A lightweight, external HUD overlay and telemetry utility designed for Star Citizen miners. **SCMB** uses real-time, non-intrusive Optical Character Recognition (OCR) to track mining deposit signatures and active server performance metrics—completely independent of the game client.
 
 ---
 
