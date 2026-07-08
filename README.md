@@ -1,13 +1,4 @@
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td align="left" valign="middle">
-      <h1>Star Citizen Mining Buddy (SCMB)</h1>
-    </td>
-    <td align="right" valign="middle">
-      <a href="https://ko-fi.com"><img src="https://shields.io" alt="Ko-fi"></a>
-    </td>
-  </tr>
-</table>
+# Star Citizen Mining Buddy (SCMB)
 
 A lightweight, external HUD overlay and telemetry utility designed for Star Citizen miners. **SCMB** uses real-time, non-intrusive Optical Character Recognition (OCR) to track mining deposit signatures and active server performance metrics—completely independent of the game client.
 
