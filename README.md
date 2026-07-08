@@ -41,7 +41,7 @@ Using SCMB is 100% safe, ensuring your account remains in perfect standing while
 
 ### 1. Prerequisites
 Ensure you have Python 3.10+ installed on your machine. 
-
+The overlay only works in borderless windowed mode.  there is no wat to make it work in full screen without breaking TOS.
 This utility requires **Tesseract-OCR** to run screen parsing layers. 
 1. Download the Windows installer from the [UB-Mannheim Tesseract Repository](https://github.com/UB-Mannheim/tesseract/wiki).
 2. Install it to the default directory: `C:\Program Files\Tesseract-OCR\tesseract.exe`.
