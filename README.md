@@ -49,3 +49,9 @@ To display the customized interface styling, download the free **Electrolize** f
 Open your terminal or command prompt inside the project folder and install the required modules:
 ```bash
 pip install opencv-python numpy mss pytesseract
+```
+Starting the overlay 
+```bash
+cd  pathtoinstall\SC_miningBuddy
+python .\mining_dashboard.py
+```
