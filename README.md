@@ -55,3 +55,4 @@ Starting the overlay
 cd  pathtoinstall\SC_miningBuddy
 python .\mining_dashboard.py
 ```
+For now I exit the program by CTRL+C or closing the terminal
