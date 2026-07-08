@@ -64,6 +64,28 @@ python .\mining_dashboard.py
 ```
 For now I exit the program by CTRL+C or closing the terminal
 
+## ⚠️ Known Issues
+
+Right now there is only some minor things to mention, I hope to hear from you if you find anythign not mentioned here.
+
+* **High Contrast Text Bleed:** Extreme environmental lighting (e.g., staring directly into a star or asteroid belt background) can occasionally cause the OCR engine to misread characters.
+* **Tesseract Pathing:** If Tesseract-OCR is installed on a non-standard drive or directory, the path string must currently be updated manually within the config.py script.
+* **Unhandeled Signals** Currently debris, FPS minables, ships both derelict and running do not flag for anything
+* **The Math** I originally used an algorithm to do math on the signal to calculate the signature.  I liked that method best but it did have issue with occasional noise OCR can pick up so I switched to large database of every possible minable signature.  This is fast and near issue free but I prefer the more elegant method of doing math.  I will work on making it right.
+* **OCR catch**  I have found one issue with the mining database.  OCR is looking for signals very fast and the game UI is not static, this is an issue when you scan an Aluminum x 4 (17140) and Borase x 2 (7140).  Currently the algorithm takes a consensus of the signatures it **thinks** it sees and makes a nearly perfect guess.  In debug mode I can see when scanning aluminum x4 the 1 can be clipped off if all the circumstances are perfect.  In which cause you will get a false ID.  Please let me know if you find any other with this behavior.  I am working on eliminating the issue.
+
+---
+
+## 🗺️ Roadmap & Future Direction
+
+I am constantly looking to improve SCMB's utility without compromising account safety, spped, resource use, or breaking TOS. Here are the features currently planned for future releases:
+
+* **Config File Migration:** Moving the hardcoded Tesseract executable path, font configurations, and default bounding box metrics into an external `config.py` or `.env` file for painless user configuration. ✅ **Mostly done**
+* **Native Settings GUI:** A dedicated configuration window to save user-defined capture bounds permanently between gaming sessions. ✅ **Mostly done, config is persistant**
+* **Linux Adaption** The awkwardness that it was made on Linux to work on Windows, but doesn't work on Linux is not lost on me.  I will port it soon, but my linux box doesn't have xdg-open (command line only, as god intended).
+* **Standalone EXE**  🟨 Maybe I should wrap this all up with a pretty bow, but then you'll be dealing with windows defender and all that fun jazz.
+* **Asteroid Map**  I believe it possible to create a waypoint system to allow you to pin (or input) a location and return to it precisely later.  I'm not joking, without touching the game client.  The value of this feature would go far beyond that of just mining.  But this feature will likely only come by your support and a lot of coffee.
+---
 
 [![Ko-fi](https://shields.io/badge/ko--fi-donate-ff5f5f?logo=ko-fi&style=for-the-badgeKo-fi)](https://ko-fi.com/randm978)
 <!-- [![Patreon](https://shields.io)](https://patreon.com)
