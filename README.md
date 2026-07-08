@@ -66,5 +66,5 @@ For now I exit the program by CTRL+C or closing the terminal
 
 
 [![Ko-fi](https://shields.io/badge/ko--fi-donate-ff5f5f?logo=ko-fi&style=for-the-badgeKo-fi)](https://ko-fi.com/randm978)
-[![Patreon](https://shields.io)](https://patreon.com)
-[![Twitch](https://shields.io)](https://twitch.tv)
+<!-- [![Patreon](https://shields.io)](https://patreon.com)
+[![Twitch](https://shields.io)](https://twitch.tv) -->
