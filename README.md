@@ -14,7 +14,8 @@ A lightweight, external HUD overlay and telemetry utility designed for Star Citi
 
 https://github.com/user-attachments/assets/7c80ee24-76c3-49d8-b426-cea4a047bb00
 
-* **Cropping-Style UI Adjustment:** Clicking "Unlock UI" reveals semi-transparent layout boxes featuring 8-way interactive bounding handles to adjust your scanning bounds flawlessly.
+* **Cropping-Style UI Adjustment:** Clicking "Unlock UI" reveals semi-transparent layout boxes featuring 8-way interactive bounding handles to adjust your scanning bounds flawlessly.  This should allow for compatability with any resolution and even ultrawide monitors.  I have yet to test with VR.
+<img width="1884" height="1132" alt="Screenshot 2026-07-08 114218" src="https://github.com/user-attachments/assets/bf7e4b56-c936-4ca6-8f46-e1fe48729971" />
 * **Live Server FPS Telemetry:** Monitors server health using a dynamic traffic-light indicator embedded directly into the control panel headbar.
   * 🟩 **>= 20 FPS:** Stable Server Environment
   * 🟨 **10–19 FPS:** Degrading Performance
